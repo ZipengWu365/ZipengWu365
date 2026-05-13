@@ -3,10 +3,13 @@
 <p>
   <a href="mailto:zxw365@student.bham.ac.uk"><img alt="Email" src="https://img.shields.io/badge/email-zxw365%40student.bham.ac.uk-0A66C2?style=flat-square"></a>
   <a href="https://www.birmingham.ac.uk/"><img alt="University of Birmingham" src="https://img.shields.io/badge/University%20of%20Birmingham-research-A1211B?style=flat-square"></a>
+  <a href="https://scholar.google.com/citations?user=CROGdXYAAAAJ&hl=en"><img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Zipeng%20Wu-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
   <a href="https://github.com/ZipengWu365"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ZipengWu365-111827?style=flat-square&logo=github"></a>
 </p>
 
-Research software at the University of Birmingham for time-series research infrastructure, temporal and spatiotemporal representation, and variable-rich real-world systems. My work connects Web Digital Twins, World Models, decomposition and forecasting workflows, counterfactual analysis for causal inference, and downstream tasks such as forecasting, classification, clustering, retrieval, and anomaly detection.
+I am a PhD researcher in Applied Mathematics at the University of Birmingham, working on temporal representation learning for structured time-series data. My research studies how temporal signals can be represented, decomposed, compared, and analysed to support reliable modelling, scientific interpretation, and reusable research infrastructure.
+
+I have led six first-author research papers, including an ICML 2026 regular paper and oral presentations at IJCNN and ICONIP. Alongside my research, I build open-source tools such as De-Time, EchoWave, AgentForecast, and TimeSeriesCounterfactuals for decomposition, structural similarity, forecasting, counterfactual analysis, benchmark design, and agent-readable scientific outputs. My broader interests include symbolic regression and temporal structure in large sequential models, world models, embodied AI, and real-world variable-rich systems.
 
 ## Featured projects
 
