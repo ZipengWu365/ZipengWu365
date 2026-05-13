@@ -1,14 +1,12 @@
 # Zipeng Wu
 
-I build research software around time series, forecasting, benchmarking, and agent-readable scientific workflows.
-
-Currently my public work is centered on turning time-series data into reproducible reports, benchmark artifacts, shareable packages, and machine-readable handoffs.
-
 <p>
   <a href="mailto:zxw365@student.bham.ac.uk"><img alt="Email" src="https://img.shields.io/badge/email-zxw365%40student.bham.ac.uk-0A66C2?style=flat-square"></a>
   <a href="https://www.birmingham.ac.uk/"><img alt="University of Birmingham" src="https://img.shields.io/badge/University%20of%20Birmingham-research-A1211B?style=flat-square"></a>
   <a href="https://github.com/ZipengWu365"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ZipengWu365-111827?style=flat-square&logo=github"></a>
 </p>
+
+Research software at the University of Birmingham for time-series research infrastructure, temporal and spatiotemporal representation, and variable-rich real-world systems. My work connects Web Digital Twins, World Models, decomposition and forecasting workflows, counterfactual analysis for causal inference, and downstream tasks such as forecasting, classification, clustering, retrieval, and anomaly detection.
 
 ## Featured projects
 
@@ -18,14 +16,6 @@ Currently my public work is centered on turning time-series data into reproducib
 | [AgentForecast](https://github.com/ZipengWu365/AgentForecast) | Multi-backend, agent-friendly forecasting that exports publishable charts, cards, Markdown, and JSON. | Python, forecasting, agents |
 | [De-Time](https://github.com/systems-mechanobiology/De-Time) | Unified time-series decomposition software with one Python and CLI interface for trends, oscillations, residuals, components, metadata, and machine-facing workflows. | Python, decomposition, forecasting |
 | [TimeSeriesCounterfactuals](https://github.com/ZipengWu365/TimeSeriesCounterfactuals) | Counterfactual workflow tooling for before/after time-series questions, including charts, reports, share packages, and agent-ready handoffs. | Python, causal impact, synthetic control |
-
-## Research and engineering focus
-
-- Time-series research infrastructure: datasets, benchmarks, decomposition libraries, evaluation protocols, and reproducible experiment artifacts
-- Temporal representation learning for signals, variables, regimes, events, and multivariate dynamics
-- Spatiotemporal representation across broad applications, including forecasting, classification, clustering, retrieval, anomaly detection, and world-model style temporal abstraction
-- Time-series counterfactual analysis for causal inference, intervention reasoning, and causal-impact workflows
-- Time-series-related, variable-rich real-world applications across healthcare, wearables, biomedical signals, traffic, energy, social events, scientific data, and engineering systems
 
 <details>
 <summary>Broader public work</summary>
