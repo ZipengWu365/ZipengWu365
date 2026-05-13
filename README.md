@@ -7,9 +7,9 @@
   <a href="https://github.com/ZipengWu365"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ZipengWu365-111827?style=flat-square&logo=github"></a>
 </p>
 
-I am a PhD researcher in Applied Mathematics at the University of Birmingham, working on temporal representation learning for structured time-series data. My research studies how temporal signals can be represented, decomposed, compared, and analysed to support reliable modelling, scientific interpretation, and reusable research infrastructure.
+I work on temporal representation learning for structured time-series data. My research studies how temporal signals can be represented, decomposed, compared, and analysed to support reliable modelling, scientific interpretation, and reusable research infrastructure.
 
-I have led six first-author research papers, including an ICML 2026 regular paper and oral presentations at IJCNN and ICONIP. Alongside my research, I build open-source tools such as De-Time, EchoWave, AgentForecast, and TimeSeriesCounterfactuals for decomposition, structural similarity, forecasting, counterfactual analysis, benchmark design, and agent-readable scientific outputs. My broader interests include symbolic regression and temporal structure in large sequential models, world models, embodied AI, and real-world variable-rich systems.
+My broader interests include symbolic regression and temporal structure in large sequential models, world models, embodied AI, and real-world variable-rich systems.
 
 ## Featured projects
 
