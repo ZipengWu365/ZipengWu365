@@ -16,7 +16,7 @@ Currently my public work is centered on turning time-series data into reproducib
 |---|---|---|
 | [EchoWave](https://github.com/ZipengWu365/EchoWave) | Explainable structural similarity for time series and datasets, with plain-English summaries, HTML reports, and compact JSON. | Python, similarity, reports |
 | [AgentForecast](https://github.com/ZipengWu365/AgentForecast) | Multi-backend, agent-friendly forecasting that exports publishable charts, cards, Markdown, and JSON. | Python, forecasting, agents |
-| DeTime | Time-series decomposition and forecasting research software, focused on decomposition-aware modeling, benchmarks, and reproducible experiment artifacts. | Python, decomposition, forecasting |
+| [De-Time](https://github.com/systems-mechanobiology/De-Time) | Unified time-series decomposition software with one Python and CLI interface for trends, oscillations, residuals, components, metadata, and machine-facing workflows. | Python, decomposition, forecasting |
 | [TimeSeriesCounterfactuals](https://github.com/ZipengWu365/TimeSeriesCounterfactuals) | Counterfactual workflow tooling for before/after time-series questions, including charts, reports, share packages, and agent-ready handoffs. | Python, causal impact, synthetic control |
 
 ## Research and engineering focus
