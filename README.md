@@ -24,8 +24,8 @@ Currently my public work is centered on turning time-series data into reproducib
 - Time-series research infrastructure: datasets, benchmarks, decomposition libraries, evaluation protocols, and reproducible experiment artifacts
 - Temporal representation learning for signals, variables, regimes, events, and multivariate dynamics
 - Spatiotemporal representation across broad applications, including forecasting, classification, clustering, retrieval, anomaly detection, and world-model style temporal abstraction
-- Counterfactual analysis, causal inference, intervention reasoning, and causal-impact workflows for time-series systems
-- Variable-rich real-world applications across wearable, biomedical, traffic, energy, social-event, scientific, and engineering data
+- Time-series counterfactual analysis for causal inference, intervention reasoning, and causal-impact workflows
+- Time-series-related, variable-rich real-world applications across healthcare, wearables, biomedical signals, traffic, energy, social events, scientific data, and engineering systems
 
 <details>
 <summary>Broader public work</summary>
