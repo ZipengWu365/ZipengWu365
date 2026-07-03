@@ -32,7 +32,9 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 - **KDD 2026 | CORE/ICORE A&#42;**: **Stationarity-Aware Retrieval-Augmented Time Series Forecasting.** Co-author.
 - **BIBM 2024 | CORE/ICORE B**: **iTARGET: Interpretable Tailored Age Regression for Grouped Epigenetic Traits.** First author.
 - **Heliyon 2023 | JCR Q1**: **A novel online multi-task learning for COVID-19 multi-output spatio-temporal prediction.** First author.
-- **ICONIP / IJCNN oral presentations:** first-author oral presentations at ICONIP 2023, ICONIP 2022, and IJCNN 2020 on online learning, multi-output regression, load forecasting, and demand prediction.
+- **ICONIP 2023 | Oral presentation | CORE/ICORE B**: **Correlated Online k-Nearest Neighbors Regressor Chain for Online Multi-output Regression.** First author.
+- **ICONIP 2022 | Oral presentation | CORE/ICORE B**: **An Interpretable Multi-target Regression Method for Hierarchical Load Forecasting.** First author.
+- **IJCNN 2020 | Oral presentation | CORE/ICORE B**: **A Novel Dynamically Adjusted Regressor Chain for Taxi Demand Prediction.** First author.
 
 ## Selected research software
 
