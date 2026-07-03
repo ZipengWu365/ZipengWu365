@@ -21,7 +21,7 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 
 ## Recent highlights
 
-- **UKRI/AIRR compute resources (2026):** two compute-only project allocations on Isambard-AI: **Time Series Language and Foundation Model** and **Language-Action Time-Series Tokenization for Efficient VLA Policies**. Each award provides 10,000 GH200 GPU-hours valued at GBP 45,000; together they total 20,000 GH200 GPU-hours valued at GBP 90,000 as compute resource only; no direct funding requested.
+- **UKRI/AIRR compute resources (2026):** two Gateway Project allocations on Isambard-AI: **Time Series Language and Foundation Model** and **Language-Action Time-Series Tokenization for Efficient VLA Policies**. Each project provides 10,000 GPUHR with nominal compute-resource value GBP 45,000; together they total 20,000 GPUHR with nominal compute-resource value GBP 90,000. Compute resources only, not direct cash funding.
 - **University of Birmingham College PhD Scholarship:** full scholarship support for Applied Mathematics PhD study from Jan 2024 to Jul 2027, covering tuition fees and stipend/living costs.
 - **ICML 2026:** first-author main-conference paper, **Time-Series Decomposition as a Standalone Task: A Mechanism-Driven Diagnostic Benchmark**.
 - **KDD 2026:** co-author on **Stationarity-Aware Retrieval-Augmented Time Series Forecasting**.
