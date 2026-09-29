@@ -43,4 +43,10 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 | [DeTime](https://github.com/systems-mechanobiology/DeTime) | Time-series decomposition as representation extraction for trend, oscillatory/periodic structure, residuals, and method-specific components. | Python/CLI library; [project page](https://systems-mechanobiology.github.io/DeTime/) |
 | [EchoTime](https://github.com/ZipengWu365/EchoTime) | Explainable structural similarity for time series and time-series datasets. | Python package with HTML reports and compact JSON; [project page](https://zipengwu365.github.io/EchoTime/) |
 
+## Interactive research visualizations
+
+**[NeurIPS 2026 Institution Atlas](https://github.com/ZipengWu365/neurips-institution-atlas)** — Explore institutional paper participation through global top-200 treemaps and ten country editions. Search full institution names and download SVG charts or CSV data. An unofficial analysis of a 26 September 2026 snapshot; counting rules and affiliation limitations are documented in the repository.
+
+**[Open the interactive atlas](https://zipengwu365.github.io/neurips-institution-atlas/)** · **[UK edition](https://zipengwu365.github.io/neurips-institution-atlas/?view=united-kingdom)**
+
 Full publication list and CV: [academic homepage](https://zipengwu365.github.io/) / [publications](https://zipengwu365.github.io/publications.html) / [CV](https://zipengwu365.github.io/cv.html).
