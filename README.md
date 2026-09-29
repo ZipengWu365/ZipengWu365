@@ -40,6 +40,7 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 
 | Project | Research role | Output |
 |---|---|---|
+| [TSDecompose-Benchmark](https://github.com/ZipengWu365/TSDecompose-Benchmark) | Standalone time-series decomposition evaluated as component recovery; ICML 2026 paper-core results and separately labelled extension tracks. | Benchmark source and paper tables; [dataset](https://huggingface.co/datasets/Zipeng365/TSDecompose-Benchmark) / [interactive leaderboard](https://huggingface.co/spaces/Zipeng365/TSDecompose-Benchmark-Leaderboard) |
 | [DeTime](https://github.com/systems-mechanobiology/DeTime) | Time-series decomposition as representation extraction for trend, oscillatory/periodic structure, residuals, and method-specific components. | Python/CLI library; [project page](https://systems-mechanobiology.github.io/DeTime/) |
 | [EchoTime](https://github.com/ZipengWu365/EchoTime) | Explainable structural similarity for time series and time-series datasets. | Python package with HTML reports and compact JSON; [project page](https://zipengwu365.github.io/EchoTime/) |
 
