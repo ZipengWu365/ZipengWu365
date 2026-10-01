@@ -15,22 +15,24 @@ I study how representations of temporal structure support comparison, retrieval,
 
 ## Research focus
 
-- **Temporal representation theory:** representation operators, their composition, and the information and structure they preserve.
-- **Temporal representation for foundation and world models:** action histories, VLA trajectories, model rollouts, temporal memory, and long-horizon sequential behaviour.
-- **Time-series representation under non-stationarity:** decomposition, stationarity-aware retrieval, forecasting diagnostics, classification, symbolic regression, and robust evaluation.
-- **Representation-driven research software:** reusable decomposition and similarity tooling with inspectable temporal components, machine-readable outputs, and shareable reports.
+- **Representation and decomposition:** representation theory, temporal component recovery, mechanism-driven evaluation, and signal feature extraction.
+- **Similarity and retrieval:** structural comparison and stationarity-aware retrieval for forecasting.
+- **Prediction and regression:** output dependencies, online learning, hierarchical forecasting, and interpretable grouped regression.
+- **Current directions:** time-series classification, symbolic representation and compression, and temporal tokenization for foundation and world models.
 
 ## Research map
 
-My research centres on **temporal representation**. My theory treats a representation as an operator **Φ: T → R**, studies operator composition, and uses information preservation, distance preservation, invariance, reconstructability, and commutativity as evaluation dimensions.
+My research centres on **temporal representation**. The map places my published work under three research themes, with my MRes and PhD work on representation theory as the common basis.
 
-[![Temporal Representation: operator theory and evaluation dimensions support composable vectorial, component, symbolic, statistical and dynamical, image and graph, and learned representations. Comparison and downstream tasks form separate layers. Compression is a cross-family goal.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
+[![Zipeng Wu's research map: Representation and Decomposition contains the ICML 2026 benchmark and MIIR 2025 ultrasound report; Similarity and Retrieval contains SARAF, KDD 2026; Prediction and Regression contains taxi demand, online multi-output regression, COVID-19 prediction, hierarchical load forecasting, and iTARGET. Software, accepted workshop work, and current projects have explicit labels.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
 
-The map groups **composable representation families**: vectorial representations, component representations, symbolic representations, statistical and dynamical features, image and graph representations, and learned embeddings. Method names are literature examples. Compression, denoising, interpretability, and task-relevant information are goals shared across families.
+- **Representation and decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
+- **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
+- **Prediction and regression:** dynamic regressor chains for taxi demand (IJCNN 2020), online kNN regressor chains (ICONIP 2023), and adaptive COVID-19 prediction (Heliyon 2023) address output dependencies and online learning. Hierarchical load forecasting (ICONIP 2022) and iTARGET (BIBM 2024) develop interpretable prediction. iTARGET estimates age from methylation profiles.
 
-DeTime and TSDecompose-Benchmark address component representations and decomposition. EchoTime addresses structural comparison. Temporal tokenization connects to symbolic representations, while foundation and world-model applications extend the learned representation framework. Forecasting and regression connect to retrieval and earlier multi-output prediction work. Time-series classification is current research.
+Current work includes time-series classification, symbolic encoding and compression, and temporal tokenization for foundation and world models. The map also labels **Semantics-Enhanced Retrieval-Augmented Time Series Forecasting** as **accepted ICML 2026 workshop work**.
 
-The [operator composition examples](https://zipengwu365.github.io/research.html#compression) explain how mean aggregation (PAA) and slope aggregation (SAA) connect to SAX and SAA-SAX through quantization and symbolization. Comparison operators such as DTW also connect representation choices to downstream tasks.
+PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
 
 [Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation.pptx)
 
@@ -45,6 +47,7 @@ The [operator composition examples](https://zipengwu365.github.io/research.html#
 
 - **ICML 2026 | CORE/ICORE A&#42;**: **Time-Series Decomposition as a Standalone Task: A Mechanism-Driven Diagnostic Benchmark.** First author.
 - **KDD 2026 | CORE/ICORE A&#42;**: **Stationarity-Aware Retrieval-Augmented Time Series Forecasting.** Co-author.
+- **MIIR 2025 | Technical report**: **Non-contact ultrasound testing of batteries.** Co-author. [Institutional record](https://research.birmingham.ac.uk/en/publications/non-contact-ultrasound-testing-of-batteries/).
 - **BIBM 2024 | CORE/ICORE B**: **iTARGET: Interpretable Tailored Age Regression for Grouped Epigenetic Traits.** First author.
 - **Heliyon 2023 | JCR Q1**: **A novel online multi-task learning for COVID-19 multi-output spatio-temporal prediction.** First author.
 - **ICONIP 2023 | Oral presentation | CORE/ICORE B**: **Correlated Online k-Nearest Neighbors Regressor Chain for Online Multi-output Regression.** First author.
