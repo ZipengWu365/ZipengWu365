@@ -21,13 +21,13 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 
 ## Research map
 
-**Temporal / time-series representation** is the common core of my research: how to express, compress, transform, compare, predict, and classify time series.
+My research centres on **temporal representation**, with work on decomposition, symbolic representation, compression, frequency conversion, similarity measurement, forecasting, and classification.
 
-[![Research map: temporal representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, and classification. Decomposition and structure extraction form part of the shared core.](assets/research-map-en.svg)](https://zipengwu365.github.io/research.html#research-map)
+[![Temporal Representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, classification, and decomposition.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
 
 DeTime and TSDecompose-Benchmark address decomposition and structure extraction; EchoTime addresses similarity. Forecasting connects to retrieval and earlier multi-output prediction work, while time-series classification is a current research direction. Individual works can span several branches.
 
-[Explore the map and related work](https://zipengwu365.github.io/research.html#research-map) · [中文图](assets/research-map-zh.svg)
+[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation.pptx)
 
 ## Recent highlights
 
