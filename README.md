@@ -19,6 +19,16 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 - **Time-series representation under non-stationarity:** decomposition, stationarity-aware retrieval, forecasting diagnostics, classification, symbolic regression, and robust evaluation.
 - **Representation-driven research software:** reusable decomposition and similarity tooling with inspectable temporal components, machine-readable outputs, and shareable reports.
 
+## Research map
+
+**Temporal / time-series representation** is the common core of my research: how to express, compress, transform, compare, predict, and classify time series.
+
+[![Research map: temporal representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, and classification. Decomposition and structure extraction form part of the shared core.](assets/research-map-en.svg)](https://zipengwu365.github.io/research.html#research-map)
+
+DeTime and TSDecompose-Benchmark address decomposition and structure extraction; EchoTime addresses similarity. Forecasting connects to retrieval and earlier multi-output prediction work, while time-series classification is a current research direction. Individual works can span several branches.
+
+[Explore the map and related work](https://zipengwu365.github.io/research.html#research-map) · [中文图](assets/research-map-zh.svg)
+
 ## Recent highlights
 
 - **UKRI/AIRR compute resources (2026):** two Gateway Project allocations on Isambard-AI: **Time Series Language and Foundation Model** and **Language-Action Time-Series Tokenization for Efficient VLA Policies**. Each project provides 10,000 GPUHR with nominal compute-resource value GBP 45,000; together they total 20,000 GPUHR with nominal compute-resource value GBP 90,000. Compute resources only, not direct cash funding.
