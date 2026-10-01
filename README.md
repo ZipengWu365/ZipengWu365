@@ -9,25 +9,28 @@
   <a href="https://research.birmingham.ac.uk/en/persons/zipeng-wu"><img alt="University of Birmingham profile" src="https://img.shields.io/badge/UoB-research%20profile-A1211B?style=flat-square"></a>
 </p>
 
-I am a PhD researcher in Applied Mathematics at the University of Birmingham. My research focuses on temporal/time-series representation for foundation and world models, and on robust machine learning for non-stationary sequential data.
+I am a PhD researcher in Applied Mathematics at the University of Birmingham. My research focuses on temporal representation theory and methods, with applications to non-stationary time-series learning, foundation models, and world models.
 
-I study decomposition, retrieval, similarity, forecasting diagnostics, and symbolic structure as reusable representations for long-horizon temporal systems, including action histories, VLA trajectories, model rollouts, temporal memory, and variable-rich scientific or real-world time series.
+I study how representations of temporal structure support comparison, retrieval, forecasting, and classification. My current scope includes time series, action histories, VLA trajectories, model rollouts, and temporal memory.
 
 ## Research focus
 
+- **Temporal representation theory:** representation operators, their composition, and the information and structure they preserve.
 - **Temporal representation for foundation and world models:** action histories, VLA trajectories, model rollouts, temporal memory, and long-horizon sequential behaviour.
 - **Time-series representation under non-stationarity:** decomposition, stationarity-aware retrieval, forecasting diagnostics, classification, symbolic regression, and robust evaluation.
 - **Representation-driven research software:** reusable decomposition and similarity tooling with inspectable temporal components, machine-readable outputs, and shareable reports.
 
 ## Research map
 
-My research centres on **temporal representation**, with work on decomposition, symbolic representation, compression, frequency conversion, similarity measurement, forecasting, and classification.
+My research centres on **temporal representation**. My theory treats a representation as an operator **Φ: T → R**, studies operator composition, and uses information preservation, distance preservation, invariance, reconstructability, and commutativity as evaluation dimensions.
 
-[![Temporal Representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, classification, and decomposition. Compression examples include PAA, SAX, and SAA-SAX.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
+[![Temporal Representation: operator theory and evaluation dimensions support composable vectorial, component, symbolic, statistical and dynamical, image and graph, and learned representations. Comparison and downstream tasks form separate layers. Compression is a cross-family goal.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
 
-DeTime and TSDecompose-Benchmark address decomposition and structure extraction; EchoTime addresses similarity. Forecasting connects to retrieval and earlier multi-output prediction work, while time-series classification is a current research direction. Individual works can span several branches.
+The map groups **composable representation families**: vectorial representations, component representations, symbolic representations, statistical and dynamical features, image and graph representations, and learned embeddings. Method names are literature examples. Compression, denoising, interpretability, and task-relevant information are goals shared across families.
 
-Representative aggregation and approximation methods include [PAA, SAX, and SAA-SAX](https://zipengwu365.github.io/research.html#compression), connecting compression to symbolic representation.
+DeTime and TSDecompose-Benchmark address component representations and decomposition. EchoTime addresses structural comparison. Temporal tokenization connects to symbolic representations, while foundation and world-model applications extend the learned representation framework. Forecasting and regression connect to retrieval and earlier multi-output prediction work. Time-series classification is current research.
+
+The [operator composition examples](https://zipengwu365.github.io/research.html#compression) explain how mean aggregation (PAA) and slope aggregation (SAA) connect to SAX and SAA-SAX through quantization and symbolization. Comparison operators such as DTW also connect representation choices to downstream tasks.
 
 [Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation.pptx)
 
