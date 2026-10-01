@@ -23,9 +23,11 @@ I study decomposition, retrieval, similarity, forecasting diagnostics, and symbo
 
 My research centres on **temporal representation**, with work on decomposition, symbolic representation, compression, frequency conversion, similarity measurement, forecasting, and classification.
 
-[![Temporal Representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, classification, and decomposition.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
+[![Temporal Representation connects symbolic representation, compression, frequency conversion, similarity measurement, forecasting, classification, and decomposition. Compression examples include PAA, SAX, and SAA-SAX.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
 
 DeTime and TSDecompose-Benchmark address decomposition and structure extraction; EchoTime addresses similarity. Forecasting connects to retrieval and earlier multi-output prediction work, while time-series classification is a current research direction. Individual works can span several branches.
+
+Representative aggregation and approximation methods include [PAA, SAX, and SAA-SAX](https://zipengwu365.github.io/research.html#compression), connecting compression to symbolic representation.
 
 [Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation.pptx)
 
