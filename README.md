@@ -22,9 +22,9 @@ I study how representations of temporal structure support comparison, retrieval,
 
 ## Research map
 
-My research centres on **temporal representation**. The map places my published work under three research themes, with my MRes and PhD work on representation theory as the common basis.
+My research centres on **time series and temporal representation**. Four connected directions surround this common basis: representation and decomposition, similarity and retrieval, prediction and regression, and symbolic representation and compression. My MRes and PhD work studies their shared representation theory.
 
-[![Zipeng Wu's research map: Representation and Decomposition contains the ICML 2026 benchmark and MIIR 2025 ultrasound report; Similarity and Retrieval contains SARAF, KDD 2026; Prediction and Regression contains taxi demand, online multi-output regression, COVID-19 prediction, hierarchical load forecasting, and iTARGET. TOMC Memory appears under Symbolic Representation and Compression as research software for context compression and task memory. Software, accepted workshop work, and current projects have explicit labels.](assets/temporal-representation-tomc-20261015.png)](assets/temporal-representation-tomc-20261015.png)
+[![Radial research map centred on Time Series and Temporal Representation, with four connected directions: Representation and Decomposition; Similarity and Retrieval; Prediction and Regression; and Symbolic Representation and Compression. TOMC Memory belongs within Symbolic Representation and Compression as research software for context compression and task memory. Publications, software, accepted workshop work and current research are labelled.](assets/temporal-representation-radial-20261015-v2.png)](assets/temporal-representation-radial-20261015-v2.png)
 
 - **Representation and decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
 - **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
@@ -36,7 +36,7 @@ Current work includes time-series classification, symbolic encoding and compress
 
 PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
 
-[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-tomc-20261015.pptx)
+[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-radial-20261015-v2.pptx)
 
 ## Recent highlights
 
