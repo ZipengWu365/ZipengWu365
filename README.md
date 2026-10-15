@@ -24,19 +24,19 @@ I study how representations of temporal structure support comparison, retrieval,
 
 My research centres on **temporal representation**. Three columns group work on decomposition, similarity and retrieval, and prediction and regression. Current directions appear below, with TOMC Memory inside symbolic representation and compression.
 
-[![Research map in three columns: Decomposition, Similarity and Retrieval, and Prediction and Regression, under the higher-level theme Temporal Representation. Current directions and accepted work appear below. TOMC Memory is research software within Symbolic Representation and Compression, for context compression and task memory.](assets/temporal-representation-black-20261015-v4.png)](assets/temporal-representation-black-20261015-v4.png)
+[![Research map in three columns: Decomposition, Similarity and Retrieval, and Prediction and Regression, under the higher-level theme Temporal Representation. Current directions appear below. Accepted semantics-enhanced forecasting work belongs to Similarity and Retrieval. TOMC Memory is research software within Symbolic Representation and Compression, for context compression and task memory.](assets/temporal-representation-black-20261015-v5.png)](assets/temporal-representation-black-20261015-v5.png)
 
 - **Decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
 - **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
 - **Prediction and regression:** dynamic regressor chains for taxi demand (IJCNN 2020), online kNN regressor chains (ICONIP 2023), and adaptive COVID-19 prediction (Heliyon 2023) address output dependencies and online learning. Hierarchical load forecasting (ICONIP 2022) and iTARGET (BIBM 2024) develop interpretable prediction. iTARGET estimates age from methylation profiles.
 
-Current work includes time-series classification, symbolic encoding and compression, and temporal tokenization for foundation and world models. The map also labels **Semantics-Enhanced Retrieval-Augmented Time Series Forecasting** as **accepted ICML 2026 workshop work**.
+Current work includes time-series classification, symbolic encoding and compression, and temporal tokenization for foundation and world models. The map also labels **Semantics-Enhanced Retrieval-Augmented Time Series Forecasting** as **accepted ICML 2026 workshop work** within Similarity and Retrieval.
 
 **[TOMC Memory](https://github.com/ZipengWu365/TOMC)** belongs to the **Symbolic Representation & Compression** direction. It prepares compact context for AI assistants by computing task-oriented records and combining them with selected source text. Its software also saves and recalls explicit task notes for reuse across assistants. TOMC Memory is research software; the GitHub repository provides the source code, plugin downloads and installation guides.
 
 PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
 
-[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-black-20261015-v4.pptx)
+[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-black-20261015-v5.pptx)
 
 ## Recent highlights
 
