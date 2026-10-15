@@ -18,13 +18,13 @@ I study how representations of temporal structure support comparison, retrieval,
 - **Representation and decomposition:** representation theory, temporal component recovery, mechanism-driven evaluation, and signal feature extraction.
 - **Similarity and retrieval:** structural comparison and stationarity-aware retrieval for forecasting.
 - **Prediction and regression:** output dependencies, online learning, hierarchical forecasting, and interpretable grouped regression.
-- **Current directions:** time-series classification, symbolic representation and compression, and temporal tokenization for foundation and world models.
+- **Current directions:** time-series classification, symbolic representation and compression, and temporal tokenization for foundation and world models. [TOMC Memory](https://github.com/ZipengWu365/TOMC) extends the representation and compression direction to conversational context and task memory.
 
 ## Research map
 
 My research centres on **temporal representation**. The map places my published work under three research themes, with my MRes and PhD work on representation theory as the common basis.
 
-[![Zipeng Wu's research map: Representation and Decomposition contains the ICML 2026 benchmark and MIIR 2025 ultrasound report; Similarity and Retrieval contains SARAF, KDD 2026; Prediction and Regression contains taxi demand, online multi-output regression, COVID-19 prediction, hierarchical load forecasting, and iTARGET. Software, accepted workshop work, and current projects have explicit labels.](assets/temporal-representation.png)](https://zipengwu365.github.io/research.html#research-map)
+[![Zipeng Wu's research map: Representation and Decomposition contains the ICML 2026 benchmark and MIIR 2025 ultrasound report; Similarity and Retrieval contains SARAF, KDD 2026; Prediction and Regression contains taxi demand, online multi-output regression, COVID-19 prediction, hierarchical load forecasting, and iTARGET. TOMC Memory appears under Symbolic Representation and Compression as research software for context compression and task memory. Software, accepted workshop work, and current projects have explicit labels.](assets/temporal-representation-tomc-20261015.png)](assets/temporal-representation-tomc-20261015.png)
 
 - **Representation and decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
 - **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
@@ -32,9 +32,11 @@ My research centres on **temporal representation**. The map places my published 
 
 Current work includes time-series classification, symbolic encoding and compression, and temporal tokenization for foundation and world models. The map also labels **Semantics-Enhanced Retrieval-Augmented Time Series Forecasting** as **accepted ICML 2026 workshop work**.
 
+**[TOMC Memory](https://github.com/ZipengWu365/TOMC)** belongs to the **Symbolic Representation & Compression** direction. It prepares compact context for AI assistants by computing task-oriented records and combining them with selected source text. Its software also saves and recalls explicit task notes for reuse across assistants. TOMC Memory is research software; the GitHub repository provides the source code, plugin downloads and installation guides.
+
 PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
 
-[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation.pptx)
+[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-tomc-20261015.pptx)
 
 ## Recent highlights
 
@@ -58,6 +60,7 @@ PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/com
 
 | Project | Research role | Output |
 |---|---|---|
+| [TOMC Memory](https://github.com/ZipengWu365/TOMC) | Symbolic representation and context compression for conversational histories, with explicit task memory for AI assistants. | CPU context preparation via Python API and MCP; plugin downloads and installation guides in the official repository. |
 | [TSDecompose-Benchmark](https://github.com/ZipengWu365/TSDecompose-Benchmark) | Standalone time-series decomposition evaluated as component recovery; ICML 2026 paper-core results and separately labelled extension tracks. | Benchmark source and paper tables; [dataset](https://huggingface.co/datasets/Zipeng365/TSDecompose-Benchmark) / [interactive leaderboard](https://huggingface.co/spaces/Zipeng365/TSDecompose-Benchmark-Leaderboard) |
 | [DeTime](https://github.com/systems-mechanobiology/DeTime) | Time-series decomposition as representation extraction for trend, oscillatory/periodic structure, residuals, and method-specific components. | Python/CLI library; [project page](https://systems-mechanobiology.github.io/DeTime/) |
 | [EchoTime](https://github.com/ZipengWu365/EchoTime) | Explainable structural similarity for time series and time-series datasets. | Python package with HTML reports and compact JSON; [project page](https://zipengwu365.github.io/EchoTime/) |
