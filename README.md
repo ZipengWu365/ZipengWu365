@@ -24,7 +24,7 @@ I study how representations of temporal structure support comparison, retrieval,
 
 My research centres on **temporal representation**. Three columns group work on decomposition, similarity and retrieval, and prediction and regression. Current directions appear below, with TOMC Memory inside symbolic representation and compression.
 
-[![Research map in three columns: Decomposition, Similarity and Retrieval, and Prediction and Regression, under the higher-level theme Temporal Representation. Current directions and accepted work appear below. TOMC Memory is research software within Symbolic Representation and Compression, for context compression and task memory.](assets/temporal-representation-black-20261015-v3.png)](assets/temporal-representation-black-20261015-v3.png)
+[![Research map in three columns: Decomposition, Similarity and Retrieval, and Prediction and Regression, under the higher-level theme Temporal Representation. Current directions and accepted work appear below. TOMC Memory is research software within Symbolic Representation and Compression, for context compression and task memory.](assets/temporal-representation-black-20261015-v4.png)](assets/temporal-representation-black-20261015-v4.png)
 
 - **Decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
 - **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
@@ -36,7 +36,7 @@ Current work includes time-series classification, symbolic encoding and compress
 
 PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
 
-[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-black-20261015-v3.pptx)
+[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-black-20261015-v4.pptx)
 
 ## Recent highlights
 
