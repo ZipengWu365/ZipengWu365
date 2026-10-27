@@ -1,74 +1,46 @@
 # Zipeng Wu
 
-<p>
-  <a href="mailto:zxw365@student.bham.ac.uk"><img alt="Email" src="https://img.shields.io/badge/email-zxw365%40student.bham.ac.uk-0A66C2?style=flat-square"></a>
-  <a href="https://zipengwu365.github.io/"><img alt="Website" src="https://img.shields.io/badge/Website-zipengwu365.github.io-C98A00?style=flat-square"></a>
-  <a href="https://zipengwu365.github.io/cv.html"><img alt="CV" src="https://img.shields.io/badge/CV-temporal%20representation-17324D?style=flat-square"></a>
-  <a href="https://scholar.google.com/citations?user=CROGdXYAAAAJ&hl=en"><img alt="Google Scholar" src="https://img.shields.io/badge/Google%20Scholar-Zipeng%20Wu-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/zipeng-wu-a98944189/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Zipeng%20Wu-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="https://research.birmingham.ac.uk/en/persons/zipeng-wu"><img alt="University of Birmingham profile" src="https://img.shields.io/badge/UoB-research%20profile-A1211B?style=flat-square"></a>
-</p>
+**Temporal representations · Time-series research software · AI task memory**
 
-I am a PhD researcher in Applied Mathematics at the University of Birmingham. My research focuses on temporal representation theory and methods, with applications to non-stationary time-series learning, foundation models, and world models.
+I am a PhD researcher in Applied Mathematics at the University of Birmingham. I study how representations of temporal structure support comparison, retrieval, forecasting and classification, with current interests in foundation models, world models and task memory.
 
-I study how representations of temporal structure support comparison, retrieval, forecasting, and classification. My current scope includes time series, action histories, VLA trajectories, model rollouts, and temporal memory.
+[Academic homepage](https://zipengwu.me/) · [Research and publications](RESEARCH_PROFILE.md) · [CV](https://zipengwu.me/cv.html) · [Google Scholar](https://scholar.google.com/citations?user=CROGdXYAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/zipeng-wu-a98944189/) · [Email](mailto:zxw365@student.bham.ac.uk)
 
-## Research focus
+## Start here
 
-- **Decomposition:** temporal component recovery, mechanism-driven evaluation, and signal feature extraction.
-- **Similarity and retrieval:** structural comparison and stationarity-aware retrieval for forecasting.
-- **Prediction and regression:** output dependencies, online learning, hierarchical forecasting, and interpretable grouped regression.
-- **Current directions:** time-series classification, symbolic representation and compression, and temporal tokenization for foundation and world models. [TOMC Memory](https://github.com/ZipengWu365/TOMC) extends the representation and compression direction to conversational context and task memory.
+| Looking for | Start with |
+|---|---|
+| Context preparation and explicit task memory for AI assistants | [TOMC Memory](https://github.com/ZipengWu365/TOMC) · [First-run guide](https://github.com/ZipengWu365/TOMC#first-run-tomc) · [Report your experience](https://github.com/ZipengWu365/TOMC/issues/11) |
+| Explainable time-series comparison | [EchoTime](https://github.com/ZipengWu365/EchoTime) |
+| Time-series decomposition software | [DeTime](https://github.com/systems-mechanobiology/DeTime) |
+| A component-recovery benchmark for time-series decomposition | [TSDecompose-Benchmark](https://github.com/ZipengWu365/TSDecompose-Benchmark) |
+
+**Follow this profile** for work across time-series representations, research software and AI memory. For a particular tool, use its repository's Star and Watch controls. Reproducible failures, documentation fixes and focused contributions are welcome; [start here](https://github.com/ZipengWu365/ZipengWu365/blob/main/community/README.md).
+
+## Research notes
+
+**27 October 2026 — [Your prompt got smaller. Did your agent get worse?](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-27-context-compression-checklist.md)**
+
+A synthetic example involving a cancelled decision, a completed task and unfinished work. Includes an evaluation checklist separating token reduction, task quality, latency and actual cost. [中文版](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-27-context-compression-checklist.zh.md).
+
+[All research notes](https://github.com/ZipengWu365/ZipengWu365/tree/main/notes)
 
 ## Research map
 
-My research centres on **temporal representation**. Three columns group work on decomposition, similarity and retrieval, and prediction and regression. Current directions appear below, with TOMC Memory inside symbolic representation and compression.
+My work connects decomposition, similarity and retrieval, and prediction and regression through temporal representations. Current directions include symbolic representation, compression and temporal tokenization. TOMC Memory extends the representation and compression direction to conversational context and explicit task notes.
 
-[![Research map in three columns: Decomposition, Similarity and Retrieval, and Prediction and Regression, under the higher-level theme Temporal Representation. Current directions appear below. Accepted semantics-enhanced forecasting work belongs to Similarity and Retrieval. TOMC Memory is research software within Symbolic Representation and Compression, for context compression and task memory.](assets/temporal-representation-black-20261015-v5.png)](assets/temporal-representation-black-20261015-v5.png)
+[![Temporal representation research map: decomposition, similarity and retrieval, prediction and regression, and current directions including symbolic representation and task memory.](assets/temporal-representation-black-20261015-v5.png)](assets/temporal-representation-black-20261015-v5.png)
 
-- **Decomposition:** the ICML 2026 component-recovery benchmark and the MIIR 2025 report on battery ultrasound signals. DeTime and TSDecompose-Benchmark are research software outputs.
-- **Similarity and retrieval:** SARAF (KDD 2026) uses stationarity-aware historical retrieval for forecasting. EchoTime provides explainable structural comparison.
-- **Prediction and regression:** dynamic regressor chains for taxi demand (IJCNN 2020), online kNN regressor chains (ICONIP 2023), and adaptive COVID-19 prediction (Heliyon 2023) address output dependencies and online learning. Hierarchical load forecasting (ICONIP 2022) and iTARGET (BIBM 2024) develop interpretable prediction. iTARGET estimates age from methylation profiles.
-
-Current work includes time-series classification, symbolic encoding and compression, and temporal tokenization for foundation and world models. The map also labels **Semantics-Enhanced Retrieval-Augmented Time Series Forecasting** as **accepted ICML 2026 workshop work** within Similarity and Retrieval.
-
-**[TOMC Memory](https://github.com/ZipengWu365/TOMC)** belongs to the **Symbolic Representation & Compression** direction. It prepares compact context for AI assistants by computing task-oriented records and combining them with selected source text. Its software also saves and recalls explicit task notes for reuse across assistants. TOMC Memory is research software; the GitHub repository provides the source code, plugin downloads and installation guides.
-
-PAA, SAX, and SAA-SAX are representative literature methods for the symbolic/compression direction. [Paper summaries and connections](https://zipengwu365.github.io/research.html#research-map) explain how the individual works fit the programme.
-
-[Related work](https://zipengwu365.github.io/research.html#research-map) · [Editable PowerPoint](assets/temporal-representation-black-20261015-v5.pptx)
-
-## Recent highlights
-
-- **UKRI/AIRR compute resources (2026):** two Gateway Project allocations on Isambard-AI: **Time Series Language and Foundation Model** and **Language-Action Time-Series Tokenization for Efficient VLA Policies**. Each project provides 10,000 GPUHR with nominal compute-resource value GBP 45,000; together they total 20,000 GPUHR with nominal compute-resource value GBP 90,000. Compute resources only, not direct cash funding.
-- **University of Birmingham College PhD Scholarship:** full scholarship support for Applied Mathematics PhD study from Jan 2024 to Jul 2027, covering tuition fees and stipend/living costs.
-- **ICML 2026:** first-author main-conference paper, **Time-Series Decomposition as a Standalone Task: A Mechanism-Driven Diagnostic Benchmark**.
-- **KDD 2026:** co-author on **Stationarity-Aware Retrieval-Augmented Time Series Forecasting**.
-
-## Selected publications
-
-- **ICML 2026 | CORE/ICORE A&#42;**: **Time-Series Decomposition as a Standalone Task: A Mechanism-Driven Diagnostic Benchmark.** First author.
-- **KDD 2026 | CORE/ICORE A&#42;**: **Stationarity-Aware Retrieval-Augmented Time Series Forecasting.** Co-author.
-- **MIIR 2025 | Technical report**: **Non-contact ultrasound testing of batteries.** Co-author. [Institutional record](https://research.birmingham.ac.uk/en/publications/non-contact-ultrasound-testing-of-batteries/).
-- **BIBM 2024 | CORE/ICORE B**: **iTARGET: Interpretable Tailored Age Regression for Grouped Epigenetic Traits.** First author.
-- **Heliyon 2023 | JCR Q1**: **A novel online multi-task learning for COVID-19 multi-output spatio-temporal prediction.** First author.
-- **ICONIP 2023 | Oral presentation | CORE/ICORE B**: **Correlated Online k-Nearest Neighbors Regressor Chain for Online Multi-output Regression.** First author.
-- **ICONIP 2022 | Oral presentation | CORE/ICORE B**: **An Interpretable Multi-target Regression Method for Hierarchical Load Forecasting.** First author.
-- **IJCNN 2020 | Oral presentation | CORE/ICORE B**: **A Novel Dynamically Adjusted Regressor Chain for Taxi Demand Prediction.** First author.
-
-## Selected research software
-
-| Project | Research role | Output |
-|---|---|---|
-| [TOMC Memory](https://github.com/ZipengWu365/TOMC) | Symbolic representation and context compression for conversational histories, with explicit task memory for AI assistants. | CPU context preparation via Python API and MCP; plugin downloads and installation guides in the official repository. |
-| [TSDecompose-Benchmark](https://github.com/ZipengWu365/TSDecompose-Benchmark) | Standalone time-series decomposition evaluated as component recovery; ICML 2026 paper-core results and separately labelled extension tracks. | Benchmark source and paper tables; [dataset](https://huggingface.co/datasets/Zipeng365/TSDecompose-Benchmark) / [interactive leaderboard](https://huggingface.co/spaces/Zipeng365/TSDecompose-Benchmark-Leaderboard) |
-| [DeTime](https://github.com/systems-mechanobiology/DeTime) | Time-series decomposition as representation extraction for trend, oscillatory/periodic structure, residuals, and method-specific components. | Python/CLI library; [project page](https://systems-mechanobiology.github.io/DeTime/) |
-| [EchoTime](https://github.com/ZipengWu365/EchoTime) | Explainable structural similarity for time series and time-series datasets. | Python package with HTML reports and compact JSON; [project page](https://zipengwu365.github.io/EchoTime/) |
+[Detailed research profile and selected publications](RESEARCH_PROFILE.md) · [Editable research map](assets/temporal-representation-black-20261015-v5.pptx) · [Full publication list](https://zipengwu.me/publications.html)
 
 ## Interactive research visualizations
 
-**[NeurIPS 2026 Institution Atlas](https://github.com/ZipengWu365/neurips-institution-atlas)** — Explore institutional paper participation through global top-200 treemaps and ten country editions. Search full institution names and download SVG charts or CSV data. An unofficial analysis of a 26 September 2026 snapshot; counting rules and affiliation limitations are documented in the repository.
+[NeurIPS 2026 Institution Atlas](https://github.com/ZipengWu365/neurips-institution-atlas) — an unofficial analysis of the 26 September 2026 snapshot. Counting rules and affiliation limitations are documented in the repository.
 
-**[Open the interactive atlas](https://zipengwu365.github.io/neurips-institution-atlas/)** · **[UK edition](https://zipengwu365.github.io/neurips-institution-atlas/?view=united-kingdom)**
+[Open the atlas](https://zipengwu365.github.io/neurips-institution-atlas/) · [UK edition](https://zipengwu365.github.io/neurips-institution-atlas/?view=united-kingdom)
 
-Full publication list and CV: [academic homepage](https://zipengwu365.github.io/) / [publications](https://zipengwu365.github.io/publications.html) / [CV](https://zipengwu365.github.io/cv.html).
+## Participate
+
+A useful first contribution can be a small synthetic failure case, a clear installation report or a correction to a research note. No follow, star or endorsement is required.
+
+[TOMC first-run feedback — English / 中文](https://github.com/ZipengWu365/TOMC/issues/11) · [Contribution routes](https://github.com/ZipengWu365/ZipengWu365/blob/main/community/README.md)
