@@ -1,0 +1,121 @@
+name: Community metrics (bounded 14-day experiment)
+
+'on':
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/community-metrics.yml
+  schedule:
+    - cron: '23 17 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: community-metrics-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    if: github.repository == 'ZipengWu365/ZipengWu365'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Record public counts without collecting identities
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import datetime as dt
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+
+          OWNER = 'ZipengWu365'
+          TARGET = 'ZipengWu365/ZipengWu365'
+          START = dt.date(2026, 10, 27)
+          END = dt.date(2026, 11, 10)
+
+          def api(path, payload=None, allow_missing=False):
+              body = None if payload is None else json.dumps(payload).encode('utf-8')
+              request = urllib.request.Request(
+                  'https://api.github.com' + path,
+                  data=body,
+                  method='GET' if payload is None else 'PUT',
+                  headers={
+                      'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+                      'Accept': 'application/vnd.github+json',
+                      'Content-Type': 'application/json',
+                      'User-Agent': 'Zipeng-public-community-metrics',
+                  },
+              )
+              try:
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as error:
+                  if allow_missing and error.code == 404:
+                      return None
+                  raise RuntimeError('GitHub API HTTP %s for %s' % (error.code, path)) from None
+
+          def snapshot(now, user, repo):
+              fields = ('followers',)
+              for field in fields:
+                  if type(user.get(field)) is not int:
+                      raise ValueError('Missing or invalid account count: ' + field)
+              for field in ('stargazers_count', 'forks_count', 'subscribers_count', 'open_issues_count'):
+                  if type(repo.get(field)) is not int:
+                      raise ValueError('Missing or invalid repository count: ' + field)
+              if type(repo.get('has_discussions')) is not bool:
+                  raise ValueError('Missing Discussions status')
+              return {
+                  'schema_version': 1,
+                  'observed_at_utc': now.isoformat(),
+                  'snapshot_type': 'public_api_aggregate',
+                  'account': OWNER,
+                  'followers': user['followers'],
+                  'followers_source': 'https://api.github.com/users/' + OWNER,
+                  'repositories': {
+                      OWNER + '/TOMC': {
+                          'stars': repo['stargazers_count'],
+                          'forks': repo['forks_count'],
+                          'subscribers': repo['subscribers_count'],
+                          'open_issues_and_prs': repo['open_issues_count'],
+                          'discussions_enabled': repo['has_discussions'],
+                          'source': 'https://api.github.com/repos/' + OWNER + '/TOMC',
+                      }
+                  },
+                  'notes': [
+                      'The first follower observation starts its measurable interval; no earlier count is inferred.',
+                      'Counts are public aggregates, not identities, installations, retention or causal effects.',
+                      'One immutable snapshot per UTC date; unavailable required counts fail the run.',
+                  ],
+              }
+
+          def main():
+              now = dt.datetime.now(dt.timezone.utc)
+              if not START <= now.date() <= END:
+                  print('Experiment window closed; no data read or written.')
+                  return
+              if os.environ.get('TARGET_REPOSITORY') != TARGET:
+                  raise RuntimeError('Unexpected destination repository')
+              path = '/repos/' + TARGET + '/contents/community/metrics/' + now.date().isoformat() + '.json'
+              if api(path, allow_missing=True) is not None:
+                  print('A snapshot already exists for this date; left unchanged.')
+                  return
+              data = snapshot(now, api('/users/' + OWNER), api('/repos/' + OWNER + '/TOMC'))
+              content = json.dumps(data, indent=2, ensure_ascii=False) + '\n'
+              api(path, {
+                  'message': 'Record public community counts for ' + now.date().isoformat() + ' [skip ci]',
+                  'content': base64.b64encode(content.encode('utf-8')).decode('ascii'),
+                  'branch': 'main',
+              })
+              print('Stored aggregate snapshot for', now.date().isoformat())
+
+          if __name__ == '__main__':
+              main()
+          PY
