@@ -2,7 +2,7 @@
 
 **Temporal representations · Time-series research software · AI task memory**
 
-I am a PhD researcher in Applied Mathematics at the University of Birmingham. I study how representations of temporal structure support comparison, retrieval, forecasting and classification, with current interests in foundation models, world models and task memory.
+I am a PhD student at the University of Birmingham. I study how representations of temporal structure support AI, with current interests in how representations of temporal structure support foundation models,  world models and agent memory.
 
 [Academic homepage](https://zipengwu.me/) · [Research and publications](RESEARCH_PROFILE.md) · [CV](https://zipengwu.me/cv.html) · [Google Scholar](https://scholar.google.com/citations?user=CROGdXYAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/zipeng-wu-a98944189/) · [Email](mailto:zxw365@student.bham.ac.uk)
 
