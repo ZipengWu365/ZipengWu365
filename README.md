@@ -19,6 +19,10 @@ I am a PhD student at the University of Birmingham. I study how representations 
 
 ## Research notes
 
+**28 October 2026 — [Saving Tokens: 13 Tools for Context Compression, Memory, and AI Handoffs](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-28-saving-tokens-context-memory-handoffs.md)**
+
+A practical roundup of context compression, persistent memory, and cross-assistant handoffs. Includes a reusable project handoff template, primary sources, and checks for evaluating token-saving claims.
+
 **27 October 2026 — [Your prompt got smaller. Did your agent get worse?](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-27-context-compression-checklist.md)**
 
 A synthetic example involving a cancelled decision, a completed task and unfinished work. Includes an evaluation checklist separating token reduction, task quality, latency and actual cost. [中文版](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-27-context-compression-checklist.zh.md).
