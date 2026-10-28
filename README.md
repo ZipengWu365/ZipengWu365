@@ -19,6 +19,10 @@ I am a PhD student at the University of Birmingham. I study how representations 
 
 ## Research notes
 
+**[From Claude Code to Codex: A Project Handoff You Can Verify](notes/claude-code-to-codex-project-handoff.md)**
+
+A practical handoff walkthrough with reusable prompts, a synthetic exercise, and checks for decisions, evidence, permissions, and unfinished work. No product installation required.
+
 **28 October 2026 — [Saving Tokens: 13 Tools for Context Compression, Memory, and AI Handoffs](https://github.com/ZipengWu365/ZipengWu365/blob/main/notes/2026-10-28-saving-tokens-context-memory-handoffs.md)**
 
 A practical roundup of context compression, persistent memory, and cross-assistant handoffs. Includes a reusable project handoff template, primary sources, and checks for evaluating token-saving claims.
