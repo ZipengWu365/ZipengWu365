@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-29T21:52:18.529835+00:00",
+  "snapshot_type": "public_api_aggregate",
+  "account": "ZipengWu365",
+  "followers": 5,
+  "followers_source": "https://api.github.com/users/ZipengWu365",
+  "repositories": {
+    "ZipengWu365/TOMC": {
+      "stars": 266,
+      "forks": 25,
+      "subscribers": 28,
+      "open_issues_and_prs": 4,
+      "discussions_enabled": false,
+      "source": "https://api.github.com/repos/ZipengWu365/TOMC"
+    }
+  },
+  "notes": [
+    "The first follower observation starts its measurable interval; no earlier count is inferred.",
+    "Counts are public aggregates, not identities, installations, retention or causal effects.",
+    "One immutable snapshot per UTC date; unavailable required counts fail the run."
+  ]
+}
